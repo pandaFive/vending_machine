@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-secondary vh-100 py-5">
+        <div id="target" class="col-12 d-flex justify-content-around flex-wrap bg-info my-3 vh-80 w100 p-4">
+
+            <div class="col-9 d-flex justify-content-center flex-wrap">
+
+                <div id="slider" class="w100 h70 bg-secondary d-flex justify-content-center align-items-center p-2">
+                </div>
+
+                <div class="mt-5 col-8 h30">
+                    <button id="paymentButton" class="btn btn-secondary w100 h70">PAY</button>
+                </div>
+            </div>
+
+            <div class="col-3 p-2 d-flex justify-content-center flex-wrap align-content-center">
+                <div class="bg-secondary p-4 m-2 w100 h30 d-flex align-items-center">
+                    <input id="num" class="bg-danger h90 w30 border-none text-white num-size text-center" type="text" maxlength="4" disabled="true">
+
+                    <div class="w70 pl-3 h90 d-flex flex-wrap">
+                        <input id="inputName" class="bg-secondary w100 h50 border-none text-white" disabled="true">
+                        <input id="inputPrice" class="bg-secondary w100 h50 border-none text-white" disabled="true">
+                    </div>
+                </div>
+
+                <div id="numButtons" class="bg-secondary p-2 m-2 w100 d-flex flex-wrap justify-content-around h70 align-items-center">
+                    <button id="btn1" type="button" class="btn bg-white col-3 m-2 num-btn">1</button>
+                    <button id="btn2" type="button" class="btn bg-white col-3 m-2 num-btn">2</button>
+                    <button id="btn3" type="button" class="btn bg-white col-3 m-2 num-btn">3</button>
+                    <button id="btn4" type="button" class="btn bg-white col-3 m-2 num-btn">4</button>
+                    <button id="btn5" type="button" class="btn bg-white col-3 m-2 num-btn">5</button>
+                    <button id="btn6" type="button" class="btn bg-white col-3 m-2 num-btn">6</button>
+                    <button id="btn7" type="button" class="btn bg-white col-3 m-2 num-btn">7</button>
+                    <button id="btn8" type="button" class="btn bg-white col-3 m-2 num-btn">8</button>
+                    <button id="btn9" type="button" class="btn bg-white col-3 m-2 num-btn">9</button>
+                    <button id="btnEnter" type="button" class="btn bg-white col-3 m-2">ENTER</button>
+                    <button id="btn0" type="button" class="btn bg-white col-3 m-2 num-btn">0</button>
+                    <button id="btnClear" type="button" class="btn bg-white col-3 m-2">CLEAR</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="project2.js"></script>
+</body>
+</html>
